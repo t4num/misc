@@ -1,4 +1,4 @@
-var request = require('request'), config = require('./config.json');;
+let request = require('request'), config = require('./config.json');;
 
 exports.handler = (event, context) => {
     // TODO implement
