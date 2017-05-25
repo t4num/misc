@@ -34,7 +34,7 @@ exports.handler = (event, context) => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         json: { text: text, link_names: 1 }
-    }, function () {
+    }, () => {
         context.done();
     });
 };
