@@ -18,6 +18,8 @@ exports.handler = (event, context) => {
                     break;
                 case "labeled":
                     break;
+                case "synchronize":
+                    break;
                 default:
                     break;
             }
