@@ -8,6 +8,8 @@ exports.handler = (event, context) => {
         case "pull_request":
             let action = event.payload.action;
             switch (action) {
+                case "created":
+                    break;
                 case "edited":
                     let state = event.payload.review.state;
                     if (state == "approved") {
