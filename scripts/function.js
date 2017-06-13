@@ -2,7 +2,7 @@ let request = require('request'), config = require('./config.json');
 
 exports.handler = (event, context) => {
     // TODO implement
-    var text;
+    let text;
     let githubEvent = event.headers["X-GitHub-Event"];
     switch (githubEvent) {
         case "pull_request":
