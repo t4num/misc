@@ -24,6 +24,8 @@ exports.handler = (event, context) => {
                     break;
             }
             break;
+        case "push":
+            break;
         default:
             break;
     }
